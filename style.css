@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
@@ -135,11 +136,11 @@ a {
   border-radius: 15px;
   filter: brightness(0.5);
   z-index: -1;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 .main__h6 {
   position: absolute;
-  top: 30%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -149,7 +150,7 @@ a {
 }
 .main__circle {
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
   height: 105px;
@@ -158,9 +159,19 @@ a {
   background-color: white;
   opacity: 0.2;
 }
+.main__background-production {
+  position: absolute;
+  top: 2100px; /* Начало появления фона при прокрутке на 600px вниз */
+  left: 0;
+  width: 100%;
+  height: 1200px;
+  background-color: #EEEEEE;
+  z-index: -1; /* Чтобы фон был за контентом */
+}
 .main__grid-production {
-  margin-top: 40px;
+  margin-top: 80px;
   display: grid;
+  justify-content: center;
   grid-template-columns: 352px 352px 352px;
   grid-template-rows: 250px;
   grid-gap: 30px;
