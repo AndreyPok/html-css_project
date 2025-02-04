@@ -98,11 +98,24 @@ a {
 .main__section-grid {
   margin-top: 20px;
   display: grid;
-  grid-template-columns: 400px 400px 400px;
-  grid-template-rows: 352px 352px;
+  grid-template-columns: 352px 352px 352px;
+  grid-template-rows: 400px 400px;
   grid-gap: 30px;
+  border-collapse: collapse;
 }
-.main__item {
-  padding: 10px;
-  border: 1px solid black;
+.main__image {
+  width: 100%;
+  height: 352px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-sizing: border-box;
+  border-radius: 6px;
+}
+.main__h4 {
+  font-size: 24px;
+  font-weight: normal;
+}
+.main__h5 {
+  font-size: 18px;
+  font-weight: normal;
 }/*# sourceMappingURL=style.css.map */
