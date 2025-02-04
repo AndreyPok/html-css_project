@@ -1,4 +1,3 @@
-@charset "UTF-8";
 * {
   margin: 0;
   font-family: "Gill Sans", "Gill Sans MT", "Calibri", "Trebuchet MS", sans-serif;
@@ -161,12 +160,12 @@ a {
 }
 .main__background-production {
   position: absolute;
-  top: 2100px; /* Начало появления фона при прокрутке на 600px вниз */
+  top: 2100px;
   left: 0;
   width: 100%;
   height: 1200px;
   background-color: #EEEEEE;
-  z-index: -1; /* Чтобы фон был за контентом */
+  z-index: -1;
 }
 .main__grid-production {
   margin-top: 80px;
