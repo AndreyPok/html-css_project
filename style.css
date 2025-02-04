@@ -115,14 +115,12 @@ a {
 .main__text-clothes {
   display: flex;
 }
-.main__h4 {
+.main__clothes {
   font-size: 24px;
-  font-weight: normal;
 }
-.main__h5 {
+.main__price {
   padding-left: 6px;
   font-size: 18px;
-  font-weight: normal;
 }
 .main__section-video {
   margin-top: 50px;
@@ -137,6 +135,7 @@ a {
   border-radius: 15px;
   filter: brightness(0.5);
   z-index: -1;
+  margin-bottom: 50px;
 }
 .main__h6 {
   position: absolute;
@@ -174,4 +173,15 @@ a {
      object-fit: cover;
   box-sizing: border-box;
   border-radius: 6px;
+}
+.main__text-production {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  width: 200px;
+}
+.main__description-production {
+  text-align: center;
+  font-size: 16px;
 }/*# sourceMappingURL=style.css.map */

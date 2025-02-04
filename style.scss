@@ -130,15 +130,13 @@ a {
         display: flex;
     }
 
-    &__h4 {
+    &__clothes {
         font-size: 24px;
-        font-weight: normal;
     }
 
-    &__h5 {
+    &__price {
         padding-left: 6px;
         font-size: 18px;
-        font-weight: normal;
     }
 
     &__section-video {
@@ -154,8 +152,15 @@ a {
         border-radius: 15px;
         filter: brightness(0.5);
         z-index: -1;
-
+        margin-bottom: 50px;
     }
+
+    // &__background-production {
+    //     height: 1920px;
+    //     width: 100vw;
+    //     box-sizing: border-box;
+    //     background-color: #EEEEEE;
+    // }
 
     &__h6 {
         position: absolute;
@@ -198,8 +203,18 @@ a {
     }
 
     &__text-production {
-        
+        margin: 20px auto;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        width: 200px;
 
     }
+
+    &__description-production {
+        text-align: center;
+        font-size: 16px;
+    }
+
 
 }
