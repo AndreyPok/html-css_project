@@ -301,5 +301,44 @@ a {
         font-size: 16px;
         color: white;
     }
+
+    &__text-icon {
+        color: white;
+    }
+
+    &__description-icon {
+        color: white;
+    }
+
+    &__grid-icon {
+        margin-top: 80px;
+        width: 100vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 30px;
+        border-collapse: collapse;
+        border: 1px white;
+    }
+
+    &__image-containter {
+        position: relative;
+        display: inline-block;
+    }
+
+    &__image-backicon {
+        display: block;
+        height: auto;
+    }
+
+    &__image-icon {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    &__text-icon {
+        text-align: center;
+    }
 }
 

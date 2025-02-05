@@ -269,4 +269,36 @@ a {
   text-align: center;
   font-size: 16px;
   color: white;
+}
+.main__text-icon {
+  color: white;
+}
+.main__description-icon {
+  color: white;
+}
+.main__grid-icon {
+  margin-top: 80px;
+  width: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 30px;
+  border-collapse: collapse;
+  border: 1px white;
+}
+.main__image-containter {
+  position: relative;
+  display: inline-block;
+}
+.main__image-backicon {
+  display: block;
+  height: auto;
+}
+.main__image-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main__text-icon {
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */
