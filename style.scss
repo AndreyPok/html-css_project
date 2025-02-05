@@ -420,3 +420,60 @@ a {
     }
 }
 
+.footer {
+    position: relative;
+    color: white;
+    text-align: center;
+
+    &__block {
+        width: 1125px;
+        border-top: 2px solid gray;
+        margin: 100px auto;
+    }
+
+    &__title-info {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+    }
+
+    &__h1 {
+        text-align: center;
+        font-size: 60px;
+        line-height: 85%;
+    }
+
+    &__h3 {
+        font-weight: normal;
+        font-size: 16px;
+    }
+
+    &__h4 {
+        font-weight: normal;
+        font-size: 14px;
+    }
+
+    &__button {
+        margin-top: 20px;
+        width: 265px;
+        height: 64px;
+        background-color: #F4DF74;
+        color: #353535;
+        font-weight: bold;
+        font-size: 16px;
+        border-radius: 10px;
+        border: none;
+        box-sizing: border-box;
+        cursor: pointer;
+        
+    }
+
+    &__telephone, &__email {
+        font-weight: bold;
+        color: white;
+        font-size: 14px;
+        text-transform: uppercase;
+    }
+
+}
+

@@ -371,4 +371,52 @@ a {
 }
 .main__text-collaborations {
   color: white;
+}
+
+.footer {
+  position: relative;
+  color: white;
+  text-align: center;
+}
+.footer__block {
+  width: 1125px;
+  border-top: 2px solid gray;
+  margin: 100px auto;
+}
+.footer__title-info {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.footer__h1 {
+  text-align: center;
+  font-size: 60px;
+  line-height: 85%;
+}
+.footer__h3 {
+  font-weight: normal;
+  font-size: 16px;
+}
+.footer__h4 {
+  font-weight: normal;
+  font-size: 14px;
+}
+.footer__button {
+  margin-top: 20px;
+  width: 265px;
+  height: 64px;
+  background-color: #F4DF74;
+  color: #353535;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+.footer__telephone, .footer__email {
+  font-weight: bold;
+  color: white;
+  font-size: 14px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
