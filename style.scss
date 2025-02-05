@@ -111,9 +111,11 @@ a {
     }
 
     &__grid-clothes {
-        margin-top: 40px;
+        width: 100vw;
+        margin-top: 40px; 
+        max-width: calc(352px*3 + 30px*2);
         display: grid;
-        grid-template-columns: 352px 352px 352px;
+        grid-template-columns: repeat(auto-fit, 352px);
         grid-template-rows: 400px 400px;
         grid-gap: 30px;
         border-collapse: collapse;
@@ -126,6 +128,7 @@ a {
         box-sizing: border-box;
         border-radius: 6px;
     }
+
     &__text-clothes {
         display: flex;
     }
@@ -212,7 +215,6 @@ a {
         font-size: 20px;
         font-weight: bold;
         width: 200px;
-
     }
 
     &__description-production {
@@ -220,5 +222,84 @@ a {
         font-size: 16px;
     }
 
+    &__method-print {
+        margin-top: 500px;
+        margin-bottom: 200px;
+    }
 
+    &__grid-print {
+        margin-top: 80px;
+        display: grid;
+        justify-content: center;
+        grid-template-columns: 545px 545px;
+        grid-template-rows: 1f;
+        grid-gap: 30px;
+        border-collapse: collapse;
+    }
+
+    &__image-print {
+        width: 100%;
+        height: 316px;
+        object-fit: cover;
+        box-sizing: border-box;
+        border-radius: 6px;
+    }
+
+    &__text-print {
+        margin: 20px auto;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        width: 200px;
+    }
+
+    &__description-print {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    &__background-print {
+        position: absolute;
+        top: 4550px;
+        left: 0;
+        width: 100%;
+        height: 1200px;
+        background-color: #191919;
+        z-index: -1;
+    }
+
+    &__section-advertising {
+        margin-top: 50px;
+        position: relative;
+    }
+
+    &__banner-block {
+        display: flex;
+        object-fit: cover;
+        box-sizing: border-box();
+        filter: brightness(0.5);
+        z-index: -1;
+        margin-bottom: 80px;
+    }
+
+    &__advertising-banner {
+        width: 562.5px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 15px;
+        filter: brightness(0.5);
+        z-index: -1;
+        margin-bottom: 80px;
+    }
+
+    &__advertising-description {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        font-size: 16px;
+        color: white;
+    }
 }
+
