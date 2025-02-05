@@ -283,7 +283,6 @@ a {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 30px;
   border-collapse: collapse;
-  border: 1px white;
 }
 .main__image-containter {
   position: relative;
@@ -302,4 +301,23 @@ a {
 .main__text-icon {
   margin-top: 10px;
   text-align: center;
+}
+.main__atelier {
+  margin-top: 300px;
+}
+.main__grid-atelier {
+  margin: 80px auto;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+.main__image-atelier {
+  width: 352px;
+  height: 352px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  box-sizing: border-box;
+  border-radius: 6px;
 }/*# sourceMappingURL=style.css.map */
