@@ -287,11 +287,11 @@ a {
 }
 .main__image-containter {
   position: relative;
-  display: inline-block;
+  display: flex;
+  justify-content: center;
 }
 .main__image-backicon {
   display: block;
-  height: auto;
 }
 .main__image-icon {
   position: absolute;
@@ -300,5 +300,6 @@ a {
   transform: translate(-50%, -50%);
 }
 .main__text-icon {
+  margin-top: 10px;
   text-align: center;
 }/*# sourceMappingURL=style.css.map */
