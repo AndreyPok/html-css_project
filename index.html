@@ -1,304 +1,547 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Clothing store</title>
-</head>
-<body>
+  </head>
+  <body>
     <header class="header">
+      <div class="header__logo">
+        <img
+          src="images/header.jpeg"
+          alt="Изображение шфейного цеха"
+          class="header__logo-image"
+        />
+      </div>
 
-        <div class="header__logo">
-            <img src="images/header.jpeg" alt="Изображение шфейного цеха" class="header__logo-image">
+      <div class="header__title-info">
+        <div class="header__block-text">
+          <a class="header__telephone" href="tel:+79253431696"
+            >+7 925 343 16 96</a
+          >
+          <h4 class="header__h4">Перезвоните мне</h4>
         </div>
-
-
-        <div class="header__title-info">
-            <div class="header__block-text">
-                <a class="header__telephone" href="tel:+79253431696">+7 925 343 16 96</a>
-                <h4 class="header__h4">Перезвоните мне</h4>
-            </div>
-            <div class="header__block-text">
-                <h2 class="header__h2">FAMFACTORY</h2>
-                <h3 class="header__h3">Швейная фабрика</h3>
-            </div>
-            <div class="header__block-text">
-                <a class="header__email" href="mailto:mail@famfactory.ru">mail@famfactory.ru</a>
-                <h4 class="header__h4">Наша почта</h4>
-            </div>
+        <div class="header__block-text">
+          <h2 class="header__h2">FAMFACTORY</h2>
+          <h3 class="header__h3">Швейная фабрика</h3>
         </div>
-
-        <div class="header__title">
-            <h1 class="header__h1">Сделано <br> в Санкт-Петербурге</h1>
-            <button class="header__button">Отправить запрос</button>
+        <div class="header__block-text">
+          <a class="header__email" href="mailto:mail@famfactory.ru"
+            >mail@famfactory.ru</a
+          >
+          <h4 class="header__h4">Наша почта</h4>
         </div>
+      </div>
 
+      <div class="header__title">
+        <h1 class="header__h1">
+          Сделано <br />
+          в Санкт-Петербурге
+        </h1>
+        <button class="header__button">Отправить запрос</button>
+      </div>
     </header>
 
     <main class="main">
-
-        <section class="main__section">
-            <div class="main__section-text">
-                <h2 class="main__h2">Современный <br> мерчендайз для бизнеса</h2>
-                <h3 class="main__h3">Над реализацией проектов по разработке и производству одежды и аксессуаров трудится огромная команда профессионалов, поэтому мы можем создавать проекты любой сложности и масштабов под ключ или воплотить конкретные задачи на любом из этапов производства.</h3>
+      <section class="main__section">
+        <div class="main__section-text">
+          <h2 class="main__h2">
+            Современный <br />
+            мерчендайз для бизнеса
+          </h2>
+          <h3 class="main__h3">
+            Над реализацией проектов по разработке и производству одежды и
+            аксессуаров трудится огромная команда профессионалов, поэтому мы
+            можем создавать проекты любой сложности и масштабов под ключ или
+            воплотить конкретные задачи на любом из этапов производства.
+          </h3>
+        </div>
+        <div class="main__grid-clothes">
+          <div class="main__item hoodies">
+            <img
+              class="main__image-clothes"
+              src="images/hoodies.jpeg"
+              alt="Девушка в худи"
+            />
+            <div class="main__text-clothes">
+              <p class="main__clothes">Худи</p>
+              <p class="main__price">от 1650 ₽</p>
             </div>
-            <div class="main__grid-clothes">
-                <div class="main__item hoodies">
-                    <img class="main__image-clothes" src="images/hoodies.jpeg" alt="Девушка в худи">
-                    <div class="main__text-clothes">
-                        <p class="main__clothes">Худи</p>
-                        <p class="main__price">от 1650 ₽</p>
-                    </div>
-                </div>
+          </div>
 
-                <div class="main__item t-shirts">
-                    <img class="main__image-clothes" src="images/t-shirts.jpeg" alt="Мужчина в футболке">
-                    <div class="main__text-clothes">
-                        <p class="main__clothes">Футболки</p>
-                        <p class="main__price">от 510 ₽</p>
-                    </div>
-                </div>
-
-                <div class="main__item swingshots">
-                    <img class="main__image-clothes" src="images/swingshots.jpeg" alt="Женщина в свингшоте">
-                    <div class="main__text-clothes">
-                        <p class="main__clothes">Свитшоты</p>
-                        <p class="main__price">от 890 ₽</p>
-                    </div>
-                </div>
-
-                <div class="main__item pants">
-                    <img class="main__image-clothes" src="images/pants.jpeg" alt="Женщина в штанах">
-                    <div class="main__text-clothes">
-                        <p class="main__clothes">Штаны</p>
-                        <p class="main__price">от 1230 ₽</p>
-                    </div>
-                </div>
-
-                <div class="main__item shoppers">
-                    <img class="main__image-clothes" src="images/shoppers.png" alt="Шоппер">
-                    <div class="main__text-clothes">
-                        <p class="main__clothes">Шопперы</p>
-                        <p class="main__price">от 330 ₽</p>
-                    </div>
-                </div>
-
-                <div class="main__item caps">
-                    <img class="main__image-clothes" src="images/caps.jpeg" alt="Кепка">
-                    <div class="main__text-clothes">
-                        <p class="main__clothes">Кепки</p>
-                        <p class="main__price">от 400 ₽</p>
-                    </div>
-                </div>
-
+          <div class="main__item t-shirts">
+            <img
+              class="main__image-clothes"
+              src="images/t-shirts.jpeg"
+              alt="Мужчина в футболке"
+            />
+            <div class="main__text-clothes">
+              <p class="main__clothes">Футболки</p>
+              <p class="main__price">от 510 ₽</p>
             </div>
-        </section>
+          </div>
 
-        <section class="main__section">
-            <div class="main__section-video">
-                <img class="main__logo-video" src="images/logo-video.jpeg" alt="Видео логотип">
-                <div class="main__block-text">
-                    <h6 class="main__h6">Презентация нашей <br> коллекции одежды 2021</h6>
-                </div>
-                <div class="main__circle"></div>
-                <div class="main__triangle"></div>
+          <div class="main__item swingshots">
+            <img
+              class="main__image-clothes"
+              src="images/swingshots.jpeg"
+              alt="Женщина в свингшоте"
+            />
+            <div class="main__text-clothes">
+              <p class="main__clothes">Свитшоты</p>
+              <p class="main__price">от 890 ₽</p>
             </div>
-        </section>
-        
-        <div class="main__background-production"></div>
+          </div>
 
-        <section class="main__section production">
-            <div class="main__section-text">
-                <h2 class="main__h2">Производство одежды <br> для компаний, брендов, <br> артистов</h2>
-                <h3 class="main__h3">Наша команда по разработке и производству одежды может реализовать проекты любой сложности, независимо от их масштаба. Мы можем взять на себя всю работу под ключ, или решить конкретные задачи на любом из этапов производства..</h3>
+          <div class="main__item pants">
+            <img
+              class="main__image-clothes"
+              src="images/pants.jpeg"
+              alt="Женщина в штанах"
+            />
+            <div class="main__text-clothes">
+              <p class="main__clothes">Штаны</p>
+              <p class="main__price">от 1230 ₽</p>
             </div>
-            <div class="main__grid-production">
-                <div class="main__item design">
-                    <img class="main__image-production" src="images/design.jpeg" alt="Дизайн">
-                    <div class="main__block-production">
-                        <p class="main__text-production">Разработка лекал и дизайна</p>
-                        <p class="main__description-production">Поможем создать уникальные лекала для вашей одежды или адаптировать уже имеющиеся. Разработаем индивидуальный дизайн ваших товаров</p>
-                    </div>
-                </div>
+          </div>
 
-                <div class="main__item tailoring">
-                    <img class="main__image-production" src="images/tailoring.jpeg" alt="Пошив">
-                    <div class="main__block-production">
-                        <p class="main__text-production">Пошив одежды
-                            на заказ</p>
-                        <p class="main__description-production">Пошив трикотажных изделий любой сложности и в любых объемах, как по вашим образцам, так и по нашим базовым лекалам</p>
-                    </div>
-                </div>
-
-                <div class="main__item brand">
-                    <img class="main__image-production" src="images/brand.jpeg" alt="Бренд">
-                    <div class="main__block-production">
-                        <p class="main__text-production">Бренд одежды
-                            под ключ</p>
-                        <p class="main__description-production">Поможем разработать линейку одежды для вашего бренда, от пошива до реализации.</p>
-                    </div>
-                </div>
+          <div class="main__item shoppers">
+            <img
+              class="main__image-clothes"
+              src="images/shoppers.png"
+              alt="Шоппер"
+            />
+            <div class="main__text-clothes">
+              <p class="main__clothes">Шопперы</p>
+              <p class="main__price">от 330 ₽</p>
             </div>
-        </section>
+          </div>
 
-        <section class="main__section main__method-print">
-            <div class="main__section-text">
-                <h2 class="main__h2">Способы нанесения <br> принтов и вышивка</h2>
+          <div class="main__item caps">
+            <img
+              class="main__image-clothes"
+              src="images/caps.jpeg"
+              alt="Кепка"
+            />
+            <div class="main__text-clothes">
+              <p class="main__clothes">Кепки</p>
+              <p class="main__price">от 400 ₽</p>
             </div>
-            <div class="main__grid-print">
-                <div class="main__item silkscreen">
-                    <img class="main__image-print" src="images/silkscreen.jpeg" alt="Дизайн">
-                    <div class="main__block-print">
-                        <p class="main__text-print">Шелкография</p>
-                        <p class="main__description-print">Трафаретная печать подходит для нанесения почти на любых изделиях: футболках, толстовках, свитшотах и т.д. Принты, сделанные данным способом имеют высокую износостойкость, не требуют особого ухода и прослужат довольно долго.</p>
-                    </div>
-                </div>
+          </div>
+        </div>
+      </section>
 
-                <div class="main__item embroidery">
-                    <img class="main__image-print" src="images/embroidery.jpeg" alt="Пошив">
-                    <div class="main__block-print">
-                        <p class="main__text-print">Вышивка на одежде</p>
-                        <p class="main__description-print">Один из самых интересных способов нанесения изображения на одежду. Вышивка долговечна, без проблем переносит механические воздействия. Данный вид нанесения выглядит наиболее эффектно и прослужит дольше всего.
-                        </p>
-                    </div>
-                </div>
+      <section class="main__section">
+        <div class="main__section-video">
+          <img
+            class="main__logo-video"
+            src="images/logo-video.jpeg"
+            alt="Видео логотип"
+          />
+          <div class="main__block-text">
+            <h6 class="main__h6">
+              Презентация нашей <br />
+              коллекции одежды 2021
+            </h6>
+          </div>
+          <div class="main__button-play">
+            <img
+              class="main__image-backplay"
+              src="images/backplay.png"
+              alt="Задний фон плей"
+            />
+            <img class="main__image-play" src="images/play.png" alt="Плей" />
+          </div>
+        </div>
+      </section>
+
+      <div class="main__background-production"></div>
+
+      <section class="main__section production">
+        <div class="main__section-text">
+          <h2 class="main__h2">
+            Производство одежды <br />
+            для компаний, брендов, <br />
+            артистов
+          </h2>
+          <h3 class="main__h3">
+            Наша команда по разработке и производству одежды может реализовать
+            проекты любой сложности, независимо от их масштаба. Мы можем взять
+            на себя всю работу под ключ, или решить конкретные задачи на любом
+            из этапов производства..
+          </h3>
+        </div>
+        <div class="main__grid-production">
+          <div class="main__item design">
+            <img
+              class="main__image-production"
+              src="images/design.jpeg"
+              alt="Дизайн"
+            />
+            <div class="main__block-production">
+              <p class="main__text-production">Разработка лекал и дизайна</p>
+              <p class="main__description-production">
+                Поможем создать уникальные лекала для вашей одежды или
+                адаптировать уже имеющиеся. Разработаем индивидуальный дизайн
+                ваших товаров
+              </p>
             </div>
-        </section>
+          </div>
 
-        <div class="main__background-print"></div>
-
-        <section class="main__section">
-            <div class="main__section-advertising">
-                <div class="main__banner-block">
-                    <img class="main__advertising-banner" src="images/advertising-banner1.jpeg" alt="Видео логотип">
-                    <img class="main__advertising-banner" src="images/advertising-banner2.jpeg" alt="Видео логотип">
-                </div>
-
-                <div class="main__block-text">
-                    <h6 class="main__h6">Если у вас есть свои товары, <br> мы можем вам помочь реализовать их</h6>
-                    <p class="main__advertising-description">
-                        Разместим Ваши товары на сайте vsrap.com и в офлайн-магазинах «VSRAP». Осуществим обработку заказов и их отправку. Каждое предложение мы рассматриваем индивидуально.
-                    </p>
-                </div>
+          <div class="main__item tailoring">
+            <img
+              class="main__image-production"
+              src="images/tailoring.jpeg"
+              alt="Пошив"
+            />
+            <div class="main__block-production">
+              <p class="main__text-production">Пошив одежды на заказ</p>
+              <p class="main__description-production">
+                Пошив трикотажных изделий любой сложности и в любых объемах, как
+                по вашим образцам, так и по нашим базовым лекалам
+              </p>
             </div>
-        </section>
+          </div>
 
-        <section class="main__section main__icon">
-            <div class="main__section-text">
-                <h2 class="main__h2 main__text-icon">Схема работы с нами</h2>
-                <h3 class="main__h3 main__text-icon">К каждому проекту мы подходим индивидуально. Свяжитесь с нами и мы поможем реализовать ваши идеи.</h3>
+          <div class="main__item brand">
+            <img
+              class="main__image-production"
+              src="images/brand.jpeg"
+              alt="Бренд"
+            />
+            <div class="main__block-production">
+              <p class="main__text-production">Бренд одежды под ключ</p>
+              <p class="main__description-production">
+                Поможем разработать линейку одежды для вашего бренда, от пошива
+                до реализации.
+              </p>
             </div>
-            <div class="main__grid-icon">
-                <div class="main__item icon1">
-                    <div class="main__image-container">
-                        <img class="main__image-backicon" src="images/backicon.png" alt="иконка человека">
-                        <img class="main__image-icon" src="images/icon1.png" alt="иконка человека">
-                    </div>
+          </div>
+        </div>
+      </section>
 
-                    <div class="main__text-icon">
-                        <p class="main__description-icon">Отправляете заявку или звоните +7 (911) 109-97-07</p>
-                    </div>
-                </div>
-                <div class="main__item icon2">
-                    <div class="main__image-container">
-                        <img class="main__image-backicon" src="images/backicon.png" alt="Задний фон иконки">
-                        <img class="main__image-icon" src="images/icon2.png" alt="иконка человека">
-                    </div>
-
-                    <div class="main__text-icon">
-                        <p class="main__description-icon">Разрабатываем лекала и шьём образец</p>
-                    </div>
-                </div>
-                <div class="main__item icon3">
-                    <div class="main__image-container">
-                        <img class="main__image-backicon" src="images/backicon.png" alt="Задний фон иконки">
-                        <img class="main__image-icon" src="images/icon3.png" alt="иконка человека">
-                    </div>
-
-                    <div class="main__text-icon">
-                        <p class="main__description-icon">Шьём тираж и наносим принт или вышивку</p>
-                    </div>
-                </div>
-                <div class="main__item icon4">
-                    <div class="main__image-container">
-                        <img class="main__image-backicon" src="images/backicon.png" alt="Задний фон иконки">
-                        <img class="main__image-icon" src="images/icon4.png" alt="иконка человека">
-                    </div>
-
-                    <div class="main__text-icon">
-                        <p class="main__description-icon">Упаковываем 
-                            и отгружаем партию</p>
-                    </div>
-                </div>
+      <section class="main__section main__method-print">
+        <div class="main__section-text">
+          <h2 class="main__h2">
+            Способы нанесения <br />
+            принтов и вышивка
+          </h2>
+        </div>
+        <div class="main__grid-print">
+          <div class="main__item silkscreen">
+            <img
+              class="main__image-print"
+              src="images/silkscreen.jpeg"
+              alt="Дизайн"
+            />
+            <div class="main__block-print">
+              <p class="main__text-print">Шелкография</p>
+              <p class="main__description-print">
+                Трафаретная печать подходит для нанесения почти на любых
+                изделиях: футболках, толстовках, свитшотах и т.д. Принты,
+                сделанные данным способом имеют высокую износостойкость, не
+                требуют особого ухода и прослужат довольно долго.
+              </p>
             </div>
-        </section>
+          </div>
 
-        <section class="main__section main__atelier">
-            <div class="main__section-text">
-                <h2 class="main__h2">Все вещи мы шьём на собственном <br>производстве в Санкт-Петербурге <br>по собственному дизайну и крою</h2>
-                <h3 class="main__h3">А наши коллекции сделанные совместно с топовыми блогерами и артистами продаём в онлайн и через собственные розничные магазины в Питере и Москве.</h3>
+          <div class="main__item embroidery">
+            <img
+              class="main__image-print"
+              src="images/embroidery.jpeg"
+              alt="Пошив"
+            />
+            <div class="main__block-print">
+              <p class="main__text-print">Вышивка на одежде</p>
+              <p class="main__description-print">
+                Один из самых интересных способов нанесения изображения на
+                одежду. Вышивка долговечна, без проблем переносит механические
+                воздействия. Данный вид нанесения выглядит наиболее эффектно и
+                прослужит дольше всего.
+              </p>
             </div>
-            <div class="main__grid-atelier">
-                <img class="main__image-atelier" src="images/atelier1.jpeg" alt="Ателье">
-                <img class="main__image-atelier" src="images/atelier2.jpeg" alt="Ателье">
-                <img class="main__image-atelier" src="images/atelier3.jpeg" alt="Ателье">
-                <img class="main__image-atelier" src="images/atelier4.jpeg" alt="Ателье">
-                <img class="main__image-atelier" src="images/atelier5.jpeg" alt="Ателье">
-                <img class="main__image-atelier" src="images/atelier6.jpeg" alt="Ателье">
-            </div>
-        </section>
+          </div>
+        </div>
+      </section>
 
-        <section class="main__section main__location">
-            <div class="main__section-text main__text-location">
-                <h2 class="main__h2">Магазины <br> в самом центре Питера <br> и Москвы</h2>
-                <h3 class="main__h3">Мы можем организовать реализацию вашего товара, не только в онлайне, но и в наших розничных магазинах.</h3>
-            </div>
-            <div class="main__block-location">
-                <img class="main__image-location" src="images/location1.jpeg" alt="Девушка в худи">
-                <img class="main__image-location" src="images/location2.jpeg" alt="Девушка в худи">
-            </div>
-        </section>
+      <div class="main__background-print"></div>
 
-        <div class="main__background-collaborations"></div>
+      <section class="main__section">
+        <div class="main__section-advertising">
+          <div class="main__banner-block">
+            <img
+              class="main__advertising-banner"
+              src="images/advertising-banner1.jpeg"
+              alt="Видео логотип"
+            />
+            <img
+              class="main__advertising-banner"
+              src="images/advertising-banner2.jpeg"
+              alt="Видео логотип"
+            />
+          </div>
 
-        <section class="main__section main__collaborations">
-            <div class="main__section-text">
-                <h2 class="main__h2 main__text-collaborations">Наши коллаборации</h2>
-                <h3 class="main__h3 main__text-collaborations">С нами уже самые топовые инфлюенсеры.</h3>
+          <div class="main__block-text">
+            <h6 class="main__h6">
+              Если у вас есть свои товары, <br />
+              мы можем вам помочь реализовать их
+            </h6>
+            <p class="main__advertising-description">
+              Разместим Ваши товары на сайте vsrap.com и в офлайн-магазинах
+              «VSRAP». Осуществим обработку заказов и их отправку. Каждое
+              предложение мы рассматриваем индивидуально.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section main__icon">
+        <div class="main__section-text">
+          <h2 class="main__h2 main__text-icon">Схема работы с нами</h2>
+          <h3 class="main__h3 main__text-icon">
+            К каждому проекту мы подходим индивидуально. Свяжитесь с нами и мы
+            поможем реализовать ваши идеи.
+          </h3>
+        </div>
+        <div class="main__grid-icon">
+          <div class="main__item icon1">
+            <div class="main__image-container">
+              <img
+                class="main__image-backicon"
+                src="images/backicon.png"
+                alt="иконка человека"
+              />
+              <img
+                class="main__image-icon"
+                src="images/icon1.png"
+                alt="иконка человека"
+              />
             </div>
-            <div class="main__grid-collaborations">
-                <img class="main__image-collaborations" src="images/collaborations1.png" alt="Ателье">
-                <img class="main__image-collaborations" src="images/collaborations2.jpeg" alt="Ателье">
-                <img class="main__image-collaborations" src="images/collaborations3.png" alt="Ателье">
-                <img class="main__image-collaborations" src="images/collaborations4.png" alt="Ателье">
-                <img class="main__image-collaborations" src="images/collaborations5.jpeg" alt="Ателье">
-                <img class="main__image-collaborations" src="images/collaborations6.jpeg" alt="Ателье">
-                <img class="main__image-collaborations" src="images/collaborations7.png" alt="Ателье">
-                <img class="main__image-collaborations" src="images/collaborations8.png" alt="Ателье">
-                <img class="main__image-collaborations" src="images/collaborations9.jpeg" alt="Ателье">
+
+            <div class="main__text-icon">
+              <p class="main__description-icon">
+                Отправляете заявку или звоните +7 (911) 109-97-07
+              </p>
             </div>
-        </section>
+          </div>
+          <div class="main__item icon2">
+            <div class="main__image-container">
+              <img
+                class="main__image-backicon"
+                src="images/backicon.png"
+                alt="Задний фон иконки"
+              />
+              <img
+                class="main__image-icon"
+                src="images/icon2.png"
+                alt="иконка человека"
+              />
+            </div>
+
+            <div class="main__text-icon">
+              <p class="main__description-icon">
+                Разрабатываем лекала и шьём образец
+              </p>
+            </div>
+          </div>
+          <div class="main__item icon3">
+            <div class="main__image-container">
+              <img
+                class="main__image-backicon"
+                src="images/backicon.png"
+                alt="Задний фон иконки"
+              />
+              <img
+                class="main__image-icon"
+                src="images/icon3.png"
+                alt="иконка человека"
+              />
+            </div>
+
+            <div class="main__text-icon">
+              <p class="main__description-icon">
+                Шьём тираж и наносим принт или вышивку
+              </p>
+            </div>
+          </div>
+          <div class="main__item icon4">
+            <div class="main__image-container">
+              <img
+                class="main__image-backicon"
+                src="images/backicon.png"
+                alt="Задний фон иконки"
+              />
+              <img
+                class="main__image-icon"
+                src="images/icon4.png"
+                alt="иконка человека"
+              />
+            </div>
+
+            <div class="main__text-icon">
+              <p class="main__description-icon">
+                Упаковываем и отгружаем партию
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="main__section main__atelier">
+        <div class="main__section-text">
+          <h2 class="main__h2">
+            Все вещи мы шьём на собственном <br />производстве в
+            Санкт-Петербурге <br />по собственному дизайну и крою
+          </h2>
+          <h3 class="main__h3">
+            А наши коллекции сделанные совместно с топовыми блогерами и
+            артистами продаём в онлайн и через собственные розничные магазины в
+            Питере и Москве.
+          </h3>
+        </div>
+        <div class="main__grid-atelier">
+          <img
+            class="main__image-atelier"
+            src="images/atelier1.jpeg"
+            alt="Ателье"
+          />
+          <img
+            class="main__image-atelier"
+            src="images/atelier2.jpeg"
+            alt="Ателье"
+          />
+          <img
+            class="main__image-atelier"
+            src="images/atelier3.jpeg"
+            alt="Ателье"
+          />
+          <img
+            class="main__image-atelier"
+            src="images/atelier4.jpeg"
+            alt="Ателье"
+          />
+          <img
+            class="main__image-atelier"
+            src="images/atelier5.jpeg"
+            alt="Ателье"
+          />
+          <img
+            class="main__image-atelier"
+            src="images/atelier6.jpeg"
+            alt="Ателье"
+          />
+        </div>
+      </section>
+
+      <section class="main__section main__location">
+        <div class="main__section-text main__text-location">
+          <h2 class="main__h2">
+            Магазины <br />
+            в самом центре Питера <br />
+            и Москвы
+          </h2>
+          <h3 class="main__h3">
+            Мы можем организовать реализацию вашего товара, не только в онлайне,
+            но и в наших розничных магазинах.
+          </h3>
+        </div>
+        <div class="main__block-location">
+          <img
+            class="main__image-location"
+            src="images/location1.jpeg"
+            alt="Девушка в худи"
+          />
+          <img
+            class="main__image-location"
+            src="images/location2.jpeg"
+            alt="Девушка в худи"
+          />
+        </div>
+      </section>
+
+      <div class="main__background-collaborations"></div>
+
+      <section class="main__section main__collaborations">
+        <div class="main__section-text">
+          <h2 class="main__h2 main__text-collaborations">Наши коллаборации</h2>
+          <h3 class="main__h3 main__text-collaborations">
+            С нами уже самые топовые инфлюенсеры.
+          </h3>
+        </div>
+        <div class="main__grid-collaborations">
+          <img
+            class="main__image-collaborations"
+            src="images/collaborations1.png"
+            alt="Ателье"
+          />
+          <img
+            class="main__image-collaborations"
+            src="images/collaborations2.jpeg"
+            alt="Ателье"
+          />
+          <img
+            class="main__image-collaborations"
+            src="images/collaborations3.png"
+            alt="Ателье"
+          />
+          <img
+            class="main__image-collaborations"
+            src="images/collaborations4.png"
+            alt="Ателье"
+          />
+          <img
+            class="main__image-collaborations"
+            src="images/collaborations5.jpeg"
+            alt="Ателье"
+          />
+          <img
+            class="main__image-collaborations"
+            src="images/collaborations6.jpeg"
+            alt="Ателье"
+          />
+          <img
+            class="main__image-collaborations"
+            src="images/collaborations7.png"
+            alt="Ателье"
+          />
+          <img
+            class="main__image-collaborations"
+            src="images/collaborations8.png"
+            alt="Ателье"
+          />
+          <img
+            class="main__image-collaborations"
+            src="images/collaborations9.jpeg"
+            alt="Ателье"
+          />
+        </div>
+      </section>
     </main>
 
     <footer class="footer">
-        <div class="footer__block">
-            <div class="footer__title-info">
-                <div class="footer__block-text">
-                    <a class="footer__telephone" href="tel:+79253431696">+7 925 343 16 96</a>
-                    <h4 class="footer__h4">Перезвоните мне</h4>
-                </div>
-                <div class="footer__block-text">
-                    <h2 class="footer__h2">FAMFACTORY</h2>
-                    <h3 class="footer__h3">Швейная фабрика</h3>
-                </div>
-                <div class="footer__block-text">
-                    <a class="footer__email" href="mailto:mail@famfactory.ru">mail@famfactory.ru</a>
-                    <h4 class="footer__h4">Наша почта</h4>
-                </div>
-            </div>
-            <button class="footer__button">Отправить запрос</button>
+      <div class="footer__block">
+        <div class="footer__title-info">
+          <div class="footer__block-text">
+            <a class="footer__telephone" href="tel:+79253431696"
+              >+7 925 343 16 96</a
+            >
+            <h4 class="footer__h4">Перезвоните мне</h4>
+          </div>
+          <div class="footer__block-text">
+            <h2 class="footer__h2">FAMFACTORY</h2>
+            <h3 class="footer__h3">Швейная фабрика</h3>
+          </div>
+          <div class="footer__block-text">
+            <a class="footer__email" href="mailto:mail@famfactory.ru"
+              >mail@famfactory.ru</a
+            >
+            <h4 class="footer__h4">Наша почта</h4>
+          </div>
         </div>
+        <button class="footer__button">Отправить запрос</button>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
